@@ -11,6 +11,10 @@ html, body {
     font-size: 1.5em;
 }
 
+.btn {
+    cursor: pointer;
+}
+
 .container > div.total {
     display: flex;
     align-items: flex-end;
