@@ -1,0 +1,30 @@
+.total {
+    background-color: inherit;
+    color: #eee;
+}
+
+.primary-operator {
+    background: rgb(247, 122, 6);
+    color: #eee;
+}
+
+.primary-operator:active {
+    background: rgb(206, 104, 8);
+    color: #eee;
+}
+
+.secondary-operator {
+    background-color: rgba(238, 238, 238, 0.822);
+}
+
+.secondary-operator:active {
+    background-color: rgba(238, 238, 238, 0.685);
+}
+
+.number {
+    background: #eee;
+}
+
+.number:active {
+    background: rgba(238, 238, 238, 0.904);
+}

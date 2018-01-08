@@ -1,0 +1,100 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-template-rows: repeat(7, minmax(50px, 1fr));
+    grid-template-areas: 
+    "totl totl totl totl"
+    "totl totl totl totl"
+    "AC pm per div"
+    "seven eight nine mult"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dt eql";
+}
+
+.total {
+    grid-area: totl;
+}
+
+/* First Row */
+#ac {
+    grid-area: AC;
+}
+
+#plus-minus {
+    grid-area: pm;
+}
+
+#percentage {
+    grid-area: per;
+}
+
+#divide {
+    grid-area: div;
+}
+
+/* Second Row */
+[id='7'] {
+    grid-area: seven;
+}
+
+[id='8'] {
+    grid-area: eight;
+}
+
+[id='9'] {
+    grid-area: nine;
+}
+
+#multiply {
+    grid-area: mult;
+}
+
+/* Third Row */
+[id='4'] {
+    grid-area: four;
+}
+
+[id='5'] {
+    grid-area: five;
+}
+
+[id='6'] {
+    grid-area: six;
+}
+
+#subtract {
+    grid-area: minus;
+}
+
+/* Fourth Row */
+[id='1'] {
+    grid-area: one;
+}
+
+[id='2'] {
+    grid-area: two;
+}
+
+[id='3'] {
+    grid-area: three;
+}
+
+#add {
+    grid-area: plus;
+}
+
+/* Fifth Row */
+[id='0'] {
+    grid-area: zero;
+}
+
+#dot {
+    grid-area: dt;
+}
+
+#equal {
+    grid-area: eql;
+}
