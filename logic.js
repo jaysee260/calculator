@@ -5,7 +5,6 @@ var num1, global_operator, num2;
 document.addEventListener('click', function(e) {
     var element = e.target;
     if(element.classList.contains('number')) {
-            // output.style.fontSize = '3.1em';
         handleNumber(element.id);
     }
     else if (element.classList.contains('primary-operator')) {
@@ -52,7 +51,6 @@ function handlePrimaryOperator(operator) {
         state = 'operator_phase';
     } else {
         num2 = output.innerText;
-        console.log(num1, global_operator, num2)
         calculate();
     }
 }
